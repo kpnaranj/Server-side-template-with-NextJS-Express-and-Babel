@@ -1,14 +1,18 @@
+import { Fragment } from "react";
 import Head from "next/head";
+import Layout from "../components/Layout";
 
 export default function Home() {
   return (
-    <div>
+    <Fragment>
       <Head>
-        <title>Create Next App</title>
+        <title>Home Page</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>This is main</main>
-      <footer>This is footer</footer>
-    </div>
+      <Layout>
+        <main>This is main</main>
+        <footer>This is footer</footer>
+      </Layout>
+    </Fragment>
   );
 }
