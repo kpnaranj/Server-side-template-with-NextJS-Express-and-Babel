@@ -1,11 +1,10 @@
 //dependencies
 import express from "express";
 //external dependecies
-import { getExample } from "../controllers/example.controllers";
+import { example } from "../controllers/example.controllers";
 //router
 const router = express.Router();
 
-router.get("/example", getExample);
-router.post("/example", postExample)
+router.get("/my-custom-route", example);
 
 export default router;
