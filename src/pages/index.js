@@ -10,8 +10,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <main className="text-center">This is main</main>
-        <footer className="text-center">This is footer</footer>
+        <main>This is main</main>
+        <footer>This is footer</footer>
       </Layout>
     </Fragment>
   );

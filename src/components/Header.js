@@ -1,5 +1,4 @@
 import { Fragment, useState } from "react";
-import Link from "next/link";
 import {
   Collapse,
   Navbar,
@@ -23,7 +22,7 @@ function Header() {
 
   return (
     <Fragment>
-      <Navbar color="dark" dark expand="md">
+      <Navbar color="light" light expand="md">
         <NavbarBrand href="/">reactstrap</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
