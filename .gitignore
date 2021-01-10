@@ -14,6 +14,8 @@
 /out/
 
 # history 
+/.history
+/.vscode
 /server/.history
 /src/.history
 
