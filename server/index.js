@@ -16,7 +16,7 @@ const dev = process.env.NODE_ENV !== "production";
 const nextApp = next({ dev });
 const handle = nextApp.getRequestHandler();
 const port = process.env.PORT || 3000;
-const db = process.env.MONGODB_URI;
+const db = process.env.MONGO_URL;
 //DB
 mongoose
   .connect(db, {

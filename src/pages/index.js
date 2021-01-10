@@ -1,14 +1,15 @@
 import Head from "next/head";
 
-export default function Home() {
+function Home() {
   return (
     <div>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>This is main</main>
-      <footer>This is footer</footer>
+      <p>This is Home</p>
     </div>
   );
 }
+
+export default Home;
